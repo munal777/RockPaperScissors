@@ -16,4 +16,4 @@ A simple web-based Rock Paper Scissors game built using JavaScript, HTML, and CS
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors.git
+   git clone https://github.com/munal777/RockPaperScissors.git
