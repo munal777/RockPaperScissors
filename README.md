@@ -6,7 +6,6 @@ A simple web-based Rock Paper Scissors game built using JavaScript, HTML, and CS
 - Play the classic Rock, Paper, Scissors game against the computer.
 - Dynamic UI updates based on user and computer choices.
 - Tracks the score of the player and the computer.
-- Responsive design for desktop and mobile.
 
 ## Technologies Used
 - **HTML**: Structure of the web page.
