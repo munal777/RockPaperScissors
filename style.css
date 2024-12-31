@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAD8B1;
+ }
+
+ .message {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 3;
+  padding: 0 30px;
+  background-color: #939185;
+  border: 3px solid #2F3645;
+  font-family: sans-serif;
+ }
+
+ .com-choice {
+  display: none;
+  color: #0d4087;
+ }
+
+ .winner {
+  display: none;
+  font-size: 20px;
+  color:#EEEDEB;
+  font-weight: 550;
+ }
+
+ .container {
+    width: 70vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+ }
+
+ .title-container {
+   display: flex;
+   justify-content: space-between;
+   width: 50vw;
+   /* border: 1px solid black; */
+   margin-bottom: 110px;
+   background-color: #001F3F;
+   border-radius: 20px;
+ }
+
+ .game-title {
+   font-size: 18px;
+   line-height: 2;
+   font-family: 'Arial', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   padding: 10px;
+ }
+
+ .score-container {
+   display: flex;
+   justify-content: space-around;
+   width: 45%;
+   /* border: 1px solid red; */
+ }
+
+ .score-box {
+   background-color: white;
+   color: #0a2943;
+   width: 80px;
+   height: 80px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   font-family: 'Arial', sans-serif;
+   /* border: 1px solid red; */
+   margin-top: 22px;
+ }
+
+ .score-box .title {
+   font-size: 12px;
+   text-transform: uppercase; 
+   color: #4a6da7; 
+   margin-bottom: 5px;
+ }
+
+ .score-box .score {
+   font-size: 36px;
+   font-weight: bold;
+ }
+
+ .game {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+ }
+
+ .btn {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+   border: none;
+   background-color: transparent;
+   border-radius: 50%;
+   overflow: hidden;
+   cursor: pointer;
+ }
+
+ .btn:active {
+    box-shadow: 0 0 15px 5px rgba(68, 41, 169, 0.471);/* Change background color when clicked */
+    transform: scale(1.05); 
+    transition: 0.1s;
+ }
+
+ .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .reset-game {
+   margin-top: 60px;
+ }
+
+ .reset-btn {
+   padding: 13px 20px;
+   border-radius: 7%;
+   border: none;
+   font-weight: 500;
+   font-size: 20px;
+   background-color: #3A6D8C;
+   color: azure;
+ }
